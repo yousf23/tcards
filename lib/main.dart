@@ -2,5 +2,5 @@ import 'deck.dart';
 
 void main() {
   var deck = Deck();
-  print(deck);
+  print(deck.cards.length);
 }

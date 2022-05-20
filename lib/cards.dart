@@ -1,10 +1,10 @@
 class Card {
-  String rank;
-  String suit;
+  String ranko;
+  String suito;
 
-  Card(this.rank, this.suit);
+  Card(this.ranko, this.suito);
   @override
   String toString() {
-    return '$this.rank of $this.suit';
+    return '$ranko of $suito';
   }
 }
