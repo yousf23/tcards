@@ -2,8 +2,22 @@ import 'cards.dart';
 
 class Deck {
   List<Card> cards = [];
-  var ranks = ['aaa', 'bbbb', 'cccc'];
-  var suits = ['1111', '222', '333', '444'];
+  var ranks = [
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    'Jack',
+    'Queen',
+    'King',
+    'Ace'
+  ];
+  var suits = ['Spades', 'Hearts', 'Diamonds', 'Clubs'];
 
   Deck() {
     for (var suit in suits) {
@@ -13,7 +27,7 @@ class Deck {
         var card = Card(rank,
             suit); // وكل ما تم توليد بطاقة اضعها في متغير مرجعي سميته card
         cards.add(
-            card); //وضع جميع البطاقات اوobject   التى تم توليدها ضمن القائمة cards
+            card); //وضع جميع البطاقات او object   التى تم توليدها  في القائمة cards
       }
     }
   }
