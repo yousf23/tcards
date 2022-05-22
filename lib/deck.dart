@@ -54,4 +54,10 @@ class Deck {
     return cards;
 
  }
+
+ List<Card> getCardRank(String ran){
+
+    cards.retainWhere((element) => element.ranko==ran);
+    return cards;
+ }
 }

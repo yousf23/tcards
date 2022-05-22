@@ -8,7 +8,8 @@ void main() {
   // print(deck.deal());
   // print(deck.deal());
   // print(deck);
-  print(deck.removeCard('1', '1'));
+  // print(deck.removeCard('1', '1'));
+  print(deck.getCardRank('2'));
 
 
 }
