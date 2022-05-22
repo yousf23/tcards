@@ -42,4 +42,10 @@ class Deck {
   void shuffleCards() {
     cards.shuffle();
   }
+
+  List<Card> deal() {
+    var hand = cards.sublist(0, 13);
+    cards = cards.sublist(13);
+    return hand;
+  }
 }
